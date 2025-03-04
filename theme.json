@@ -284,6 +284,15 @@
 			"title": "Sidebar"
 		}
 	],
+	"customTemplates": [
+		{
+			"name": "wp-custom-template-page-no-sidebar",
+			"title": "Page No Sidebar",
+			"postTypes": [
+				"page"
+			]
+		}
+	],
 	"version": 3,
 	"$schema": "https://schemas.wp.org/wp/6.7/theme.json"
 }
