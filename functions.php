@@ -43,3 +43,13 @@ function mindset_setup() {
 }
 add_action('after_setup_theme', 'mindset_setup');
 
+
+function mindset_add_custom_image_sizes( $size_names ) {
+	$new_sizes = array(
+		'400x500' => __( '400x500', 'mindset-theme' ),
+		'200x250' => __( '200x250', 'mindset-theme' ),
+	);
+	return array_merge( $size_names, $new_sizes );
+}
+add_filter( 'image_size_names_choose', 'mindset_add_custom_image_sizes' );
+
