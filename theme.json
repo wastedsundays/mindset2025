@@ -1,4 +1,13 @@
 {
+	"customTemplates": [
+		{
+			"name": "wp-custom-template-page-no-sidebar",
+			"postTypes": [
+				"page"
+			],
+			"title": "Page No Sidebar"
+		}
+	],
 	"settings": {
 		"appearanceTools": true,
 		"color": {
@@ -282,15 +291,6 @@
 			"area": "uncategorized",
 			"name": "sidebar",
 			"title": "Sidebar"
-		}
-	],
-	"customTemplates": [
-		{
-			"name": "wp-custom-template-page-no-sidebar",
-			"title": "Page No Sidebar",
-			"postTypes": [
-				"page"
-			]
 		}
 	],
 	"version": 3,
